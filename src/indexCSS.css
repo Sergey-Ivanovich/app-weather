@@ -1,0 +1,85 @@
+body {
+  background-color: #f9f7fe;
+  font-family: Roboto, sans-serif;
+  color: rgba(39, 33, 66, 0.4);
+  margin-top: 40px;
+}
+
+h1 {
+  color: black;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+hr {
+  color: #f9f7fe13;
+}
+
+header form {
+  display: flex;
+  justify-content: space-around;
+}
+
+strong {
+  color: red;
+}
+
+a {
+  color: rgb(136, 93, 241);
+}
+
+input.text-box {
+  background-color: #f9f7fe;
+  width: 80%;
+  padding: 20px;
+  border: 3px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+input.submit {
+  width: 15%;
+  border-radius: 10px;
+  border: 0px;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(136, 93, 241);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: white;
+  padding: 30px;
+  border: 4px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 30px 5px rgba(0, 0, 0, 0.1);
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.degree {
+  font-size: 80px;
+  font-weight: 500;
+  display: flex;
+  font-weight: 600;
+}
+
+.temp {
+  display: flex;
+  color: black;
+  font-size: 25px;
+  justify-content: space-around;
+}
+
+.sun {
+  padding-top: 15px;
+  font-size: 45px;
+}
+
+.symbol {
+  padding-top: 10px;
+}
